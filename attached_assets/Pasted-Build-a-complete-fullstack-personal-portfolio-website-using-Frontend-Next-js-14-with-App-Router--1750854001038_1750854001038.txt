@@ -1,0 +1,111 @@
+Build a complete fullstack personal portfolio website using:
+
+Frontend: Next.js 14+ with App Router
+
+Styling: Tailwind CSS for responsive UI
+
+Animations: Framer Motion for smooth transitions
+
+Database: MongoDB (using Mongoose or Prisma)
+
+Authentication: Admin login with JWT or session
+
+🌐 Public Website (Fully Responsive & SEO Optimized)
+Include the following sections:
+
+Home:
+
+Hero section with animated intro, short bio, CTA buttons, and image
+
+About:
+
+Full biography
+
+Short personal story
+
+List of categorized skills (icons optional)
+
+Experienced Company:
+
+Timeline view of companies or jobs with company name, role, duration, description, logo
+
+Projects:
+
+Showcase of projects including:
+
+Title, description, tech stack, cover image, GitHub/live demo links
+
+Each project opens in a detailed view with SEO metadata
+
+Blog:
+
+Dynamic list of blog articles from MongoDB
+
+Markdown support
+
+Each blog post has dynamic route with proper SEO meta, tags, and preview image
+
+Contact Me:
+
+Contact form (name, email, message)
+
+Stores data in MongoDB and optionally sends email via Nodemailer
+
+🔐 Admin Panel (Protected)
+Secure route: /admin
+
+Simple login page to access the dashboard
+
+Inside dashboard, admin can:
+
+Edit bio and short story
+
+Manage skills (Create, Edit, Delete)
+
+Manage experiences (Create, Edit, Delete)
+
+Manage projects:
+
+Add new project
+
+Update project details
+
+Delete project
+
+Manage blog posts:
+
+Create new blog
+
+Edit existing blog
+
+Delete blog
+
+View contact messages
+
+🛠 Technical Requirements
+Use Next.js App Router with dynamic routing for blog/project detail pages
+
+Use Framer Motion for animations
+
+Use Tailwind CSS for styling
+
+MongoDB for all dynamic content (bio, skills, experiences, projects, blogs, contacts)
+
+SEO: Use metadata API, Open Graph tags, dynamic meta for each page
+
+Responsive: Mobile-first design
+
+Image optimization with next/image
+
+Dark/light theme toggle
+
+Middleware protection for admin routes
+
+Form validation (Zod/Yup optional)
+
+✅ Optional Enhancements
+Upload cover images for blogs/projects (via Cloudinary )
+
+Markdown preview in blog editor
+
+Add view count analytics (optional)
